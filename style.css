@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: ; */
+  background: linear-gradient(
+    45deg,
+    hsla(214, 100%, 87%, 1) 0%,
+    hsla(264, 82%, 60%, 1) 44%,
+    hsla(237, 64%, 56%, 1) 100%
+  );
+}
+
+.container {
+  margin: 3rem;
+  padding: 3rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.header p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.form-container {
+  width: 70rem;
+  background-color: #03071e;
+  padding: 5rem;
+  border-radius: 5px;
+  height: 60rem;
+}
+
+.form-container form {
+  width: 100%;
+  height: 100%;
+  margin: 2rem 0;
+  overflow-y: scroll;
+}
+
+.form-container form::-webkit-scrollbar {
+  display: none;
+}
+
+form .general {
+  font-size: 2rem;
+  /* font-family: "poppins", san-serif; */
+  margin: 10px;
+  /* margin-bottom: 8px; */
+  color: #fff;
+  font-weight: bold;
+}
+
+form .general span {
+  font-size: 1.3rem;
+}
+
+form .form-input {
+  width: 100%;
+  height: 3.5rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+form .form-input::placeholder {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "poppins", sans-serif;
+  color: #495057;
+  opacity: 0.4;
+}
+
+form #role,
+#feature {
+  width: 100%;
+  height: 3.5rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rad,
+.check {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.area {
+  margin-top: 1rem;
+}
+
+.text-area {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+  outline: none;
+  font-family: "poppins", sans-serif;
+  color: #495057;
+}
+
+.submit {
+  width: 100%;
+  color: #fff;
+  margin-top: 1rem;
+  background-color: #0077b6;
+  border: none;
+  border-radius: 2px;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  height: 3.5rem;
+  font-size: 1.8rem;
+}
